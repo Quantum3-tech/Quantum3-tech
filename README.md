@@ -33,7 +33,7 @@ Whether a model follows instructions hidden in the data its tools return, and
 which defences actually stop it.
 
 ```mermaid
-flowchart LR
+flowchart TD
   MCP["companies-house-mcp<br/>the tool surface"]
   EV["company-qa-evals<br/>is the answer grounded"]
   SK["uk-company-check-skill<br/>stop the failures found"]
